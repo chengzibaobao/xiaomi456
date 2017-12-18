@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="ico/iconfont.css" >
+	<link rel="stylesheet" href="css/swiper.min.css" >
 </head>
-<body>
+<body id="xiaomi">
 	<!-- 头部开始 -->
 	<div class="head">
 		<div class="head-neikuan">
@@ -52,9 +53,119 @@
 			<span class="nav-wenzi">服务</span>
 			<span class="nav-wenzi">社区</span>
 		</div>
-		<div class="nav-right"></div>
+		<div class="nav-right">
+			<div class="nav-seach">
+				<input type="text" placeholder="请输入要搜索的内容">
+			</div>
+			<div class="nav-text">
+				<input type="submit" class="iconfont" value="&#xe63b;">
+			</div>
+		</div>
 	</div>
 	<!-- 导航结束 -->
+
+	<!-- banner开始 -->
+	<div class="banner swiper-container" id="swiper1">
+		<div class="banner-tu swiper-wrapper" >
+			<div class="swiper-slide">
+				<img src="img/27 (1).jpg" alt="">	
+			</div>
+			<div class="swiper-slide">
+				<img src="img/27 (2).jpg" alt="">	
+			</div>
+			<div class="swiper-slide">
+				<img src="img/27 (3).jpg" alt="">	
+			</div>
+			<div class="swiper-slide">
+				<img src="img/27 (4).jpg" alt="">	
+			</div>
+			<div class="swiper-slide">
+				<img src="img/27 (5).jpg" alt="">	
+			</div>
+		</div>
+		<ul class="banner-nav">
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">手机电话</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="" >
+					<span class="banner-nav-wenzi">笔记本</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">电视 盒子</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">路由器 智能硬件</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">移动电源</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">诶及 音箱</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">保护套</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">线材 支架</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">箱包</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="">
+					<span class="banner-nav-wenzi">米兔 周边</span>
+					<span class="banner-nav-jiantou">&gt;</span>
+				</a>
+			</li>
+		</ul>
+		
+			
+		<div class="heziww swiper-button-prev iconfont icon-zuoyoujiantou-copy-copy huadong">
+		</div>
+
+		<div class="heziwww swiper-button-next iconfont icon-you huadongb">
+		</div>
+	
+		<div class="swiper-pagination banner-lubodian">	
+		</div>
+	</div>
+	<!-- banner结束 -->
 
 	<!-- banner下的列表开始 -->
 	<ul class="bannerlist" type="circle">
@@ -170,24 +281,22 @@
 		</div>	
 	</div>
 	<!-- 小米明星单品结束 -->
-
-	
 	<div id="box">
 		<!-- 家电开始 -->
 		<div class="jiadian">
-		  <div class="jiadian-top">
-			<h2 class="jiadian-wenzi">家电</h2>
-			<div class="jiadian-left">
+		  	<div class="jiadian-top">
+				<h2 class="jiadian-wenzi">家电</h2>
+				<div class="jiadian-left">
 				<span class="jiadian-xiaobiaoti1">热门</span>
 				<span class="jiadian-xiaobiaoti">家居</span>
 				<span class="jiadian-xiaobiaoti">电脑</span>
 				<span class="jiadian-xiaobiaoti">电视影音</span>
-			</div>
-		   </div>
-		  <div class="jiadian-bottm">
-		  	<div class="jiadian-bottm-left">
-		  	<img src="img/21 (7).jpg" alt="">
+				</div>
 		  	</div>
+		  	<div class="jiadian-bottm">
+		  		<div class="jiadian-bottm-left">
+		  			<img src="img/21 (7).jpg" alt="">
+		  		</div>
 				<li class="jiadian-item">
 					<a href="" class="jiadian-item1">
 					<img src="img/21 (1).png" alt="">
@@ -195,6 +304,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-item">
@@ -204,6 +319,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-item">
@@ -213,6 +334,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-item">
@@ -222,6 +349,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-item">
@@ -231,6 +364,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-item">
@@ -240,6 +379,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-item">
@@ -249,6 +394,12 @@
 					<a href="" class="jiadian-biaoti">小米MAX2</a>
 					<p class="jiadian-item3">4.9mm极超薄高端</p>
 					<span class="jiadian-jiage">1449元</span>
+					<a href="" class="display">
+					<div class="mingzizi">
+						<span class="mingzia">颜值担当,很不错的一款的产品。</span>	
+					</div>
+					<span>来自于随风而去的评价</span>
+					</a>
 				</li>
 
 				<li class="jiadian-items">
@@ -270,7 +421,7 @@
 						
 					</div>
 				</li>
-		  </div>	
+		  	</div>	
 	 	</div>
 	 	<!-- 家电结束 -->
 
@@ -865,80 +1016,244 @@
 				</h2>
 			</div>
 			<div class="danpin-bottm ">
-				<div class="danpin-item neirong ">
-					<spean class="neirong-tushu">图书
-					</spean>
-					<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
-					</a>
-					<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
-					</a>
-					<a href="" class="neirong-tushuneirongw">29.37元
-					</a>
-					<div class="neirong-tupian">
-					<img src="img/24 (1).png" alt="">
+				<div class="danpin-item neirong swiper-container" id="swiper2">	
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
 					</div>
-					<div class="diandian">
-						<div class="dian">●</div>
-						<div class="dian">●</div>
-						<div class="dian">●</div>	
+					
+
+					<div class="heziww swiper-button-prev iconfont icon-zuoyoujiantou-copy-copy heziwwc">
+						<span class="huadonga">&lt;
+						</span>	
 					</div>
+
+					<div class="heziwww swiper-button-next iconfont icon-you heziwwwd">
+						<span class="huadonga">&gt;
+						</span>
+					</div>
+				
+					<div class="swiper-pagination diandian">	
+					</div>	
+				</div>
+			
+				<div class="danpin-item neirong swiper-container" id="swiper3">	
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+					</div>
+					
+
+					<div class="heziww swiper-button-prev iconfont icon-zuoyoujiantou-copy-copy heziwwc">
+						<span class="huadonga">&lt;
+						</span>	
+					</div>
+
+					<div class="heziwww swiper-button-next iconfont icon-you heziwwwd">
+						<span class="huadonga">&gt;
+						</span>
+					</div>
+				
+					<div class="swiper-pagination diandian">	
+					</div>	
 				</div>
 
-				<div class="danpin-item neirong ">
-					<spean class="neirong-tushu">图书
-					</spean>
-					<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
-					</a>
-					<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
-					</a>
-					<a href="" class="neirong-tushuneirongw">29.37元
-					</a>
-					<div class="neirong-tupian">
-					<img src="img/24 (2).png" alt="">
+				<div class="danpin-item neirong swiper-container" id="swiper4">	
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
 					</div>
-					<div class="diandian">
-						<div class="dian">●</div>
-						<div class="dian">●</div>
-						<div class="dian">●</div>	
+					
+
+					<div class="heziww swiper-button-prev iconfont icon-zuoyoujiantou-copy-copy heziwwc">
+						<span class="huadonga">&lt;
+						</span>	
 					</div>
+
+					<div class="heziwww swiper-button-next iconfont icon-you heziwwwd">
+						<span class="huadonga">&gt;
+						</span>
+					</div>
+				
+					<div class="swiper-pagination diandian">	
+					</div>	
 				</div>
 
-				<div class="danpin-item neirong ">
-					<spean class="neirong-tushu">图书
-					</spean>
-					<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
-					</a>
-					<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
-					</a>
-					<a href="" class="neirong-tushuneirongw">29.37元
-					</a>
-					<div class="neirong-tupian">
-					<img src="img/24 (3).png" alt="">
-					</div>
-					<div class="diandian">
-						<div class="dian">●</div>
-						<div class="dian">●</div>
-						<div class="dian">●</div>	
-					</div>
-				</div>
+				<div class="danpin-item neirong rongrong swiper-container" id="swiper5">	
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
 
-				<div class="danpin-item neirong rongrong ">
-					<spean class="neirong-tushu">图书
-					</spean>
-					<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
-					</a>
-					<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
-					</a>
-					<a href="" class="neirong-tushuneirongw">29.37元
-					</a>
-					<div class="neirong-tupian">
-					<img src="img/24 (4).png" alt="">
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<spean class="neirong-tushu">图书
+							</spean>
+							<a href="" class="neirong-tushuming">哈利·波特与被诅咒的孩子
+							</a>
+							<a href="" class="neirong-tushuneirong">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！
+							</a>
+							<a href="" class="neirong-tushuneirongw">29.37元
+							</a>
+							<div class="neirong-tupian">
+							<img src="img/24 (1).png" alt="">
+							</div>
+						</div>
 					</div>
-					<div class="diandian">
-						<div class="dian">●</div>
-						<div class="dian">●</div>
-						<div class="dian">●</div>	
+					
+
+					<div class="heziww swiper-button-prev iconfont icon-zuoyoujiantou-copy-copy heziwwc">
+						<span class="huadonga">&lt;
+						</span>	
 					</div>
+
+					<div class="heziwww swiper-button-next iconfont icon-you heziwwwd">
+						<span class="huadonga">&gt;
+						</span>
+					</div>
+				
+					<div class="swiper-pagination diandian">	
+					</div>	
 				</div>
 			</div>	
 		</div>
@@ -947,7 +1262,7 @@
 		<!-- 视频开始 -->
 		<div class="neirongw">
 			<div class="danpin-top">
-				<h2 class="danpin-wenzi">内容
+				<h2 class="danpin-wenzi">视频
 				</h2>
 				<div class="danpin-jiantou">查看全部
 				</div>
@@ -966,6 +1281,9 @@
 				<div class="shipin-kapian ">
 					<div class="shipin-tupian">
 					<img src="img/25 (2).jpg" alt="">
+					<div class="tubiao">
+				
+					</div>	
 					</div>
 					<a href="" class="shipin-tushuming">雷军与斯塔克打造全面屏2.0
 					</a>
@@ -976,6 +1294,7 @@
 				<div class="shipin-kapian ">
 					<div class="shipin-tupian">
 					<img src="img/25 (3).jpg" alt="">
+					
 					</div>
 					<a href="" class="shipin-tushuming">雷军与斯塔克打造全面屏2.0
 					</a>
@@ -992,11 +1311,85 @@
 					<spean class="shipin-tushu">一场关于小米MIX 2 极致工艺的巅峰对话
 					</spean>
 				</div>
-
-				</div>
 			</div>	
 		</div>
 		<!-- 视频结束 -->
 	</div>
 </body>
 </html>
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>        
+  var swiper1 = new Swiper ('#swiper1', {
+    loop: true,
+    autoplay: true,
+    effect : 'fade',
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  }) 
+
+   var swiper2 = new Swiper ('#swiper2', {
+    loop: true,
+  	  // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+
+  var swiper3 = new Swiper ('#swiper3', {
+    loop: true,
+  	  // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })   
+
+  var swiper4 = new Swiper ('#swiper4', {
+    loop: true,
+  	  // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })  
+
+  var swiper5 = new Swiper ('#swiper5', {
+    loop: true,
+ 
+  	  // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })                               
+ </script>
